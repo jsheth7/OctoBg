@@ -1,4 +1,18 @@
-OctoBg
-======
+#OctoBg background changer
 
-Set a random Octocat as your desktop background
+### What does OctoBg do?
+
+This script downloads a random Octocat (from https://octodex.github.com/) and sets it as your background image.
+
+### Requirements:
+
+* PHP 5.3+
+* composer
+* Mac OS X (for now)
+
+### Usage:
+
+* Set your background to be centered (for best results)
+* Run it like this:
+
+  php run.php
