@@ -26,8 +26,8 @@ Set your background to be centered (for best results):
 
     System Preferences -> Desktop & Screensaver -> Center
  
-* Run it like this:
+Run it like this:
 
-  php run.php
+    php run.php
   
-  Tip: set it up as a cronjob, to have it change your background every day!
+Tip: set it up as a cronjob, to have it change your background every day!
