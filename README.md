@@ -7,9 +7,13 @@ This script downloads a random Octocat (from https://octodex.github.com/) and se
 ### Requirements:
 
 * PHP 5.3+
-* composer
+* composer ( https://getcomposer.org/ )
 * Mac OS X (for now)
 
+### Installation
+
+    composer install
+    
 ### Usage:
 
 * Set your background to be centered (for best results)
