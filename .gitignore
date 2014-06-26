@@ -1,1 +1,5 @@
 /vendor/
+
+composer.phar
+
+Resources/config/config.ini
