@@ -14,8 +14,6 @@ This script downloads a random Octocat (from https://octodex.github.com/) and se
 
     git clone https://github.com/jsheth7/OctoBg.git
 
-    composer install
-
     #If you don't have composer installed, install it as follows:
     curl -sS https://getcomposer.org/installer | php
     
