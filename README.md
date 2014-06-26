@@ -13,12 +13,18 @@ This script downloads a random Octocat (from https://octodex.github.com/) and se
 ### Installation
 
     git clone https://github.com/jsheth7/OctoBg.git
-    
+
+    composer install
+
     #If you don't have composer installed, install it as follows:
     curl -sS https://getcomposer.org/installer | php
     
     #Install needed libraries as follows:
     php composer.phar install
+
+    cp ./Resources/config_sample.ini ./Resources/config.ini
+
+    #Edit ./Resources/config.ini to contain the path where you want your images saved
    
 ### Usage:
 
@@ -30,4 +36,7 @@ Run it like this:
 
     php run.php
   
-Tip: set it up as a cronjob, to have it change your background every day!
+Tips: 
+
+* Set it up as a cron job, to have it change your background every day!
+* After you've accumulated a significant cache of pictures, you can configure Mac OS X to pull pictures directly from that folder (instead of running the cron job)
